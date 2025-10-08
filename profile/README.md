@@ -1,6 +1,6 @@
 # 0-ART
 
-**0-ART** is a novel solution for building privacy-first, scalable, decentalization-friendly and verifiable applications such as messengers, private collaborative workspaces and many others. Extending the classic approaches for group management such as [ART](https://eprint.iacr.org/2017/666.pdf) and [MLS](https://datatracker.ietf.org/doc/rfc9420/) it gives a crucial component
+**0-ART** is a novel solution by [FreedomTool.org](https://freedomtool.org/) for building privacy-first, scalable, decentalization-friendly and verifiable applications such as messengers, private collaborative workspaces and many others. Extending the classic approaches for group management such as [ART](https://eprint.iacr.org/2017/666.pdf) and [MLS](https://datatracker.ietf.org/doc/rfc9420/) it gives a crucial component
 beforementioned solutions lack - *verifiability*: each group operation is supplied with a proof of a correct execution which lowers a level of trust assumptions on *Service Provider* and makes systems built with **0-ART** scalable, efficient and even more privacy-preserving. Moreover, **0-ART** supports concurrent updates of a group through a merging mechanism 
 and gives a practical solution for role management based on *anonymous verifiable credentials*.
 
