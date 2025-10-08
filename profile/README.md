@@ -13,10 +13,10 @@ Here we present our implementation of **0-ART** written in Rust along with a dem
   - [cortado](https://github.com/zero-art-rs/core/tree/main/cortado) - carefully crafted elliptic curve which is "native" for the [bulletproofs](https://github.com/zero-art-rs/bulletproofs) implementation(built upon [Ristretto](https://ristretto.group/) group).
   - [zk](https://github.com/zero-art-rs/core/tree/main/zk) - zero-knowledge proofs for tree operations built with great [bulletproofs](https://github.com/zkcrypto/bulletproofs) protocol.
   - [art](https://github.com/zero-art-rs/core/tree/main/art) - implementation of ART and auxiliary tree routines.
-  - [crypto](https://github.com/zero-art-rs/core/tree/main/art) - implementation of additional cryptography routines([X3DH](https://signal.org/docs/specifications/x3dh/) protocol, Schnorr signatures).
+  - [crypto](https://github.com/zero-art-rs/core/tree/main/crypto) - implementation of additional cryptography routines([X3DH](https://signal.org/docs/specifications/x3dh/) protocol, Schnorr signatures).
 - [client-sdk](https://github.com/zero-art-rs/client-sdk) - client SDK library for developers which want to integrate **0-ART** protocol into their applications based on our own [application layer protocol](https://zero-art-rs.github.io/book/protocol/0_protocol.html).
 - [veil-app](https://github.com/zero-art-rs/veil-app) - the first practical application of **0-ART**: demo of the private collaborative workspace.
 - [infrastructure](https://github.com/zero-art-rs/infrastructure) - all backend services supplied in *docker-compose*
   - [node](https://github.com/zero-art-rs/node) - delivery backend service that also verifies all group operations.
   - [message-relay](https://github.com/zero-art-rs/message-relay) - service implementing *outbox* pattern for supplying messages into message-broker
-  - [transistor](https://github.com/zero-art-rs/message-relay) - auxiliary service for untrusted encrypted data sharing
+  - [transistor](https://github.com/zero-art-rs/transistor) - auxiliary service for untrusted encrypted data sharing
